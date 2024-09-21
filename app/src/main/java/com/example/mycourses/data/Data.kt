@@ -3,7 +3,7 @@ import com.example.mycourses.R
 
 import com.example.mycourses.course_topics.Topic
 
-class Data {
+object Data {
     val topics = listOf(
         Topic(R.string.architecture, 58, R.drawable.architecture),
         Topic(R.string.crafts, 121, R.drawable.crafts),
